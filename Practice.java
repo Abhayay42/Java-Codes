@@ -1,28 +1,29 @@
-public class Practice {
+public class practice {
 
     public static Node<Integer> LL(){
-        Node<Integer> n1 = new Node<>(100);
-        Node<Integer> n2 = new Node<>(200);
-        Node<Integer> n3 = new Node<>(300);
-        Node<Integer> n4 = new Node<>(400);
-        Node<Integer> n5 = new Node<>(500);
+        Node<Integer> n1 = new Node(12);
+        Node<Integer> n2 = new Node(14);
+        Node<Integer> n3 = new Node(16);
+        Node<Integer> n4 = new Node(18);
+
         n1.next=n2;
         n2.next=n3;
         n3.next=n4;
-        n4.next=n5;
 
         return n1;
     }
 
-    public static void Print(Node<Integer> head){
-        int count =0;
-        while(head!=null){
-            System.out.print(head.data+" ");
-            head=head.next;
+    public static void print(Node<Integer> head){
+        Node<Integer> temp = head;
+        while(temp!=null){
+        System.out.println(temp.data);
+        temp=temp.next;
         }
     }
+
+
     public static void main(String[] args) {
         Node<Integer> head = LL();
-        Print(head);
+        print(head);
     }
 }
