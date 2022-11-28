@@ -13,17 +13,30 @@ public class practice {
         return n1;
     }
 
-    public static void print(Node<Integer> head){
+
+    public static void traverse(Node<Integer> head, int i){
+        int position =1;
         Node<Integer> temp = head;
-        while(temp!=null){
-        System.out.println(temp.data);
-        temp=temp.next;
+        while(temp!=null && position<i){
+            temp=temp.next;
+            position++;
         }
+        System.out.println(temp.data);
+
     }
+
+    // public static void print(Node<Integer> head){
+    //     Node<Integer> temp = head;
+    //     while(temp!=null){
+    //     System.out.println(temp.data);
+    //     temp=temp.next;
+    //     }
+    // }
 
 
     public static void main(String[] args) {
         Node<Integer> head = LL();
-        print(head);
+        // print(head,3);
+        traverse(head,3);
     }
 }
