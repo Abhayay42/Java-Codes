@@ -13,7 +13,7 @@ public class practice1 {
                 tail = currnode;
             }
             else{
-                tail.next=currnode;
+                tail.next=currnode; 
                 tail=currnode;
             }
             data=s.nextInt();
@@ -30,8 +30,22 @@ public class practice1 {
 
     }
 
+    // public static void insert(Node<Integer> head, int elem, int pos){
+    //     int count=0;
+    //     Node<Integer> nodetobeinserted = new Node<Integer> (elem);
+    //     Node<Integer> prev =null;
+    //     while(count<pos-1){
+    //         count++;
+    //         prev=prev.next;
+    //     }
+    //     nodetobeinserted.next =prev.next;
+    //     prev.next=nodetobeinserted;
+
+    // }
+
     public static void main(String[] args) {
         Node<Integer> head = haha();
+        // insert(head,80,2);
         print(head);
 
     }
