@@ -28,6 +28,7 @@ public class practice2 {
         if (pos == 0) {
             newnode.next = head;
             // head = newnode;
+            //haha
             return newnode;
         } else {
             while (count < pos - 1 && prev != null) {
@@ -52,7 +53,7 @@ public class practice2 {
 
     public static void main(String[] args) {
         Node<Integer> head = input();
-        head = insert(head, 80, 3);
+        head = insert(head, 80, 4);
         print(head);
     }
 }

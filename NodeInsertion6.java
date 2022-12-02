@@ -53,9 +53,12 @@ public class NodeInsertion6 {
         // print(head);
     }
 
+   
+
     public static void main(String[] args) {
         Node<Integer> head = haha();
         head =insert(head, 80, 0);
+        
         print(head);
 
     }
