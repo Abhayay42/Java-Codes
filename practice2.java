@@ -30,6 +30,7 @@ public class practice2 {
             // head = newnode;
             //haha
             //tehdh
+            //hjhjkh
             //dhsrhs
             return newnode;
         } else {
