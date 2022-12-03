@@ -29,6 +29,8 @@ public class practice2 {
             newnode.next = head;
             // head = newnode;
             //haha
+            //tehdh
+            //dhsrhs
             return newnode;
         } else {
             while (count < pos - 1 && prev != null) {
