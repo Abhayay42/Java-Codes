@@ -31,6 +31,7 @@ public class practice2 {
             //haha
             //tehdh
             //khhjkhkj
+            //ccgcgcg
             //hjhjkh
             //dhsrhs
             return newnode;
