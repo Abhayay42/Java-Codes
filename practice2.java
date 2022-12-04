@@ -27,7 +27,7 @@ public class practice2 {
         Node<Integer> prev = head;
         if (pos == 0) {
             newnode.next = head;
-            // head = newnode;
+            // head = newnode;      
             return newnode;
         } else {
             while (count < pos - 1 && prev != null) {
