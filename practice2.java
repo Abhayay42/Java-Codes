@@ -28,12 +28,6 @@ public class practice2 {
         if (pos == 0) {
             newnode.next = head;
             // head = newnode;
-            //haha
-            //tehdh
-            //khhjkhkj
-            //ccgcgcg
-            //hjhjkh
-            //dhsrhs
             return newnode;
         } else {
             while (count < pos - 1 && prev != null) {
