@@ -6,7 +6,7 @@ public class NodeDeletion7 {
         Scanner s = new Scanner(System.in);
         Node<Integer> head = null, tail = null;
         int data = s.nextInt();
-
+        //hello
         while (data != -1) {
             Node<Integer> currnode = new Node<Integer>(data);
             if (head == null) {
